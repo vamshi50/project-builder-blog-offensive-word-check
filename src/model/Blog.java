@@ -7,12 +7,7 @@ public class Blog {
 	private String blogDescription;
 	private LocalDate date;
 	
-	public Blog(String blogTitle, String blogDescription, LocalDate date) {
-		
-		this.blogTitle = blogTitle;
-		this.blogDescription = blogDescription;
-		this.date = date;
-	}
+	
 	public String getBlogTitle() {
 		return blogTitle;
 	}
@@ -32,5 +27,10 @@ public class Blog {
 		this.date = date;
 	}
 	
-	
+public Blog(String blogTitle, String blogDescription, LocalDate date) {
+		
+		this.blogTitle = blogTitle;
+		this.blogDescription = blogDescription;
+		this.date = date;
+	}
 }
